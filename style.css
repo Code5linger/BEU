@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+html,
+body {
+  max-width: 70rem;
+  margin: 2;
+}
+
+header {
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-weight: bolder;
+  text-align: center;
+  /* margin: 2rem 0; */
+  margin: 2rem 20rem 0 0;
+}
+
+header ul {
+  background-color: crimson;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  margin: 2rem 2rem;
+}
+
+.nav-cta {
+  margin: 2rem 0 0 10rem;
+}
